@@ -1,0 +1,30 @@
+.login {
+  /* center a box - with a light 
+  grey background and some spacing inbetween inputs
+  and try to make the inputs look nicer
+  */
+  background-color: lightblue;
+  justify-content: center;
+  align-self: center;
+  width: 20rem;
+  height: 18rem;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  border-radius: 10px;
+  
+}
+
+.inner-login {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
